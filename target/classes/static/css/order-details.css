@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+.cart-header {
+    text-align: right;
+    padding: 10px 20px;
+}
+.cart-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.cart-count {
+    background: #4CAF50;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 0.8em;
+}
+.details-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header-with-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #333;
+}
+h1 {
+    color: #333;
+    margin: 0;
+}
+.details-panel {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.order-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.order-meta-group strong {
+    display: inline-block;
+    min-width: 100px;
+}
+.badge {
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+.placed {
+    background-color: #e3f2fd;
+    color: #0d47a1;
+}
+.processing {
+    background-color: #fff8e1;
+    color: #ff6f00;
+}
+.delivered {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+}
+.cancelled {
+    background-color: #ffebee;
+    color: #c62828;
+}
+.section-title {
+    margin: 30px 0 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #4CAF50;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+tfoot th, tfoot td {
+    border-top: 2px solid #eee;
+    font-weight: bold;
+}
+.text-right {
+    text-align: right;
+}
+.reorder-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.reorder-btn:hover {
+    background-color: #45a049;
+}
+.back-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #f1f1f1;
+    color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.back-btn:hover {
+    background-color: #e0e0e0;
+}

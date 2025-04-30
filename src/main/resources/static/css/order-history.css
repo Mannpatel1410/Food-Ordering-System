@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+.cart-header {
+    text-align: right;
+    padding: 10px 20px;
+}
+.cart-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.cart-count {
+    background: #4CAF50;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 0.8em;
+}
+.history-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #333;
+}
+h1 {
+    color: #333;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.order-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.order-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.order-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.order-header h3 {
+    margin: 0;
+    color: #333;
+}
+.order-date {
+    color: #666;
+    font-size: 0.9em;
+}
+.order-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.order-status {
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+.placed {
+    background-color: #e3f2fd;
+    color: #0d47a1;
+}
+.processing {
+    background-color: #fff8e1;
+    color: #ff6f00;
+}
+.delivered {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+}
+.cancelled {
+    background-color: #ffebee;
+    color: #c62828;
+}
+.order-total {
+    font-weight: bold;
+}
+.order-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.view-details-btn, .reorder-btn {
+    display: inline-block;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.view-details-btn {
+    background-color: #f1f1f1;
+    color: #333;
+}
+.reorder-btn {
+    background: #4CAF50;
+    color: white;
+}
+.view-details-btn:hover {
+    background-color: #e0e0e0;
+}
+.reorder-btn:hover {
+    background-color: #45a049;
+}
+.no-orders {
+    text-align: center;
+    color: #666;
+    padding: 30px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
