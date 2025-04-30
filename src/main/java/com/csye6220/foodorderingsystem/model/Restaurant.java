@@ -33,7 +33,6 @@ public class Restaurant {
     @OneToMany(mappedBy = "restaurant", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<MenuItem> menuItems = new ArrayList<>();
 
-    // Constructors
     public Restaurant() {
     }
 
