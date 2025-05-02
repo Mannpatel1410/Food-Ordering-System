@@ -12,7 +12,7 @@
     <div class="cart-container">
         <a href="${pageContext.request.contextPath}/dashboard" class="back-link">← Back to Restaurants</a>
         <h1>Your Cart</h1>
-        
+
         <c:choose>
             <c:when test="${not empty cart.items}">
                 <c:forEach items="${cart.items}" var="item">
@@ -29,16 +29,18 @@
                             </form>
                             <form action="<c:url value='/cart/remove'/>" method="post">
                                 <input type="hidden" name="menuItemId" value="${item.menuItem.id}">
-                                <button type="submit" class="delete-btn">Remove</button>
+                                <button type="submit" class="remove-btn">Remove</button>
                             </form>
                         </div>
                     </div>
                 </c:forEach>
+
                 <div class="cart-total">
                     <h3>Total: $<fmt:formatNumber value="${total}" minFractionDigits="2"/></h3>
                     <a href="<c:url value='/cart/checkout'/>">Proceed to Checkout</a>
                 </div>
             </c:when>
+
             <c:otherwise>
                 <div class="empty-cart">
                     <p>Your cart is empty.</p>

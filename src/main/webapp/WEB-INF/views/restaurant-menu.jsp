@@ -7,14 +7,12 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/restaurant-menu.css">
 </head>
 <body>
-    <div class="cart-header" style="text-align: right; padding: 10px 20px;">
+    <div class="cart-header">
         <a href="${pageContext.request.contextPath}/cart/view" 
-           class="cart-link"
-           style="text-decoration: none; color: #333; font-weight: bold;">
+           class="cart-link">
            🛒 Cart 
            <c:if test="${not empty cart && not empty cart.items}">
-              <span class="cart-count" style="background: #4CAF50; color: white; 
-                    border-radius: 50%; padding: 2px 6px; font-size: 0.8em;">
+              <span class="cart-count">
                   ${cart.items.size()}
               </span>
            </c:if>
