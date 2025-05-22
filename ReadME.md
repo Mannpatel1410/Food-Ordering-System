@@ -1,0 +1,1 @@
+<kbd><img width="1470" alt="Dashboard View" src="./screenshots/dashboard.png" /></kbd>
