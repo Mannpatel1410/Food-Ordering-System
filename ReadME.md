@@ -13,6 +13,15 @@ The platform includes features like user authentication, search functionality, d
 #### Frontend
 - JSP (Java Server Pages)
 - CSS
+
+#### Database
+- MySQL
+
+#### Other Tools & Libraries
+- Apache Tomcat
+- JSTL (JSP Standard Tag Library)
+- iText PDF (for invoice generation)
+- Maven (build tool)
   
 #### Landing Page - Login & Signup
 <img width="1470" alt="Login Page" src="https://github.com/user-attachments/assets/5752d47e-9478-46e9-9a49-a7bd0cf88d36" />
