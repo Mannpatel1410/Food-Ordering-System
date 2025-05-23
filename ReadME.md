@@ -3,6 +3,17 @@ This is a full-stack food ordering web application that allows users to browse r
 
 The platform includes features like user authentication, search functionality, dynamic cart updates, order history, reorder, and downloadable PDF invoices. It brings together modern backend logic with a clean, responsive frontend to simulate a real-world food delivery system.
 
+## Tech Stack
+#### Backend
+- Spring Boot
+- Java
+- Hibernate (ORM)
+- DAO Design Pattern
+
+#### Frontend
+- JSP (Java Server Pages)
+- CSS
+  
 #### Landing Page - Login & Signup
 <img width="1470" alt="Login Page" src="https://github.com/user-attachments/assets/5752d47e-9478-46e9-9a49-a7bd0cf88d36" />
 
